@@ -1,5 +1,8 @@
 package arthmetics
 
+import (
+      "errors"
+)
 
 func Divide(a, b int) (float64, error) { 
     if b == 0 { 
